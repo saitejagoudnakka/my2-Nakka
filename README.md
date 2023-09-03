@@ -34,5 +34,5 @@ Here is the relevant question on Stack Overflow: [Link to Stack Overflow Questio
     $snippets_link = "snippet:add?code=" + encodeURIComponent($codeblock.text()) + "&name=" + $title + "&relatedurl=" + encodeURIComponent(document.location.href);
     $("<a class='snippet-button'>Add to Snippets.app</a>").attr("href",$snippets_link).appendTo($preblock);         
 });```
-
+***
 Here is the quick link for the snippets source [link](https://css-tricks.com/new-snippet-buttons/)
