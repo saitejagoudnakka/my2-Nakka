@@ -28,11 +28,12 @@ Here are some of best 4 sports game that makes our life better.
 ***
 # How to add points to a logged-in user after reading a QR code (URL) with MyCred and WordPress
 Here is the relevant question on Stack Overflow: [Link to Stack Overflow Question](https://stackoverflow.com/questions/77021074/how-to-add-points-to-a-logged-in-user-after-reading-a-qr-code-url-with-mycred)
-```$("pre").each(function() {
+``` $("pre").each(function() {
     $preblock = $(this);
     $codeblock = $preblock.find("code");
     $snippets_link = "snippet:add?code=" + encodeURIComponent($codeblock.text()) + "&name=" + $title + "&relatedurl=" + encodeURIComponent(document.location.href);
     $("<a class='snippet-button'>Add to Snippets.app</a>").attr("href",$snippets_link).appendTo($preblock);         
-});```
-***
+}); ```
+
+
 Here is the quick link for the snippets source [link](https://css-tricks.com/new-snippet-buttons/)
