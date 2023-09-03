@@ -15,7 +15,7 @@
 
 click here for my personal details and image <MyStats.md>
 ***
-#Tables
-#Recommending 4 types of sports 
+
+# Recommending 4 types of sports 
 |Name|Reason of reccomendationn|Time spent|
 |-------|---------:|--------|
