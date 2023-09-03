@@ -35,4 +35,4 @@ Here is the relevant question on Stack Overflow: [Link to Stack Overflow Questio
     $("<a class='snippet-button'>Add to Snippets.app</a>").attr("href",$snippets_link).appendTo($preblock);         
 });```
 
-Here is the quick link for the snippets source <https://css-tricks.com/new-snippet-buttons/>
+Here is the quick link for the snippets source [link](https://css-tricks.com/new-snippet-buttons/)
