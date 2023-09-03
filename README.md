@@ -12,5 +12,5 @@
     List of dishes i get at vacation spot
     * Chicken
     * Fish
-!C:\Users\S565437\Documents\GitHub\my2-Nakka\MyStats.md
+[!C:\Users\S565437\Documents\GitHub\my2-Nakka\MyStats.md](https://github.com/saitejagoudnakka/my2-Nakka/blob/main/profile-pic.png?raw=true)https://github.com/saitejagoudnakka/my2-Nakka/blob/main/profile-pic.png?raw=true
     
