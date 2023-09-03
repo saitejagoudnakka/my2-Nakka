@@ -14,3 +14,8 @@
     * Fish
 
 click here for my personal details and image <MyStats.md>
+***
+#Tables
+Reccmmending 4 types of sports 
+|Name|Reason of reccomendationn|Time spent|
+|-------|---------:|--------|
