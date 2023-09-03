@@ -24,3 +24,13 @@ Here are some of best 4 sports game that makes our life better.
 |Cricket:|Learns Cordination:|1|
 |Foot ball:|Makes you Strong:|1|
 |Chess:|Increases intelligence:|1|
+
+***
+# How to add points to a logged-in user after reading a QR code (URL) with MyCred and WordPress
+Here is the relevant question on Stack Overflow: [Link to Stack Overflow Question](https://stackoverflow.com/questions/77021074/how-to-add-points-to-a-logged-in-user-after-reading-a-qr-code-url-with-mycred)
+```$("pre").each(function() {
+    $preblock = $(this);
+    $codeblock = $preblock.find("code");
+    $snippets_link = "snippet:add?code=" + encodeURIComponent($codeblock.text()) + "&name=" + $title + "&relatedurl=" + encodeURIComponent(document.location.href);
+    $("<a class='snippet-button'>Add to Snippets.app</a>").attr("href",$snippets_link).appendTo($preblock);         
+});```
