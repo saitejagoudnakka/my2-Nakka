@@ -27,8 +27,8 @@ Here are some of best 4 sports game that makes our life better.
 
 ***
 # 2 PITHY QUOTES BY SCIENTISTS
-> "Science is a way of thinking much more than it is a body of knowledge" -*Carl Sagan*
-> "Science knows no country, because knowledge belongs to humanity, and is the torch which illuminates the world." - *Louis Pasteur*
+> "Science is a way of thinking much more than it is a body of knowledge"> -*Carl Sagan*
+> "Science knows no country, because knowledge belongs to humanity, and is the torch which illuminates the world." > - *Louis Pasteur*
 # How to add points to a logged-in user after reading a QR code (URL) with MyCred and WordPress
 Here is the relevant question on Stack Overflow: [Link to Stack Overflow Question](https://stackoverflow.com/questions/77021074/how-to-add-points-to-a-logged-in-user-after-reading-a-qr-code-url-with-mycred)
 ``` $("pre").each(function() {
