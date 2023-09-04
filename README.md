@@ -41,4 +41,4 @@ Here is the relevant question on Stack Overflow: [Link to Stack Overflow Questio
 ```
 
 
-Here is the quick link for the snippets source [link](https://css-tricks.com/new-snippet-buttons/)
+Here is the quick link for the snippets source:  [link](https://css-tricks.com/new-snippet-buttons/)
