@@ -30,44 +30,22 @@ Here are some of best 4 sports game that makes our life better.
 > "Science is a way of thinking much more than it is a body of knowledge" -*Carl Sagan*
 
 > "Science knows no country, because knowledge belongs to humanity, and is the torch which illuminates the world." - *Louis Pasteur*
-# How to add points to a logged-in user after reading a QR code (URL) with MyCred and WordPress
-Here is the relevant question on Stack Overflow: [Link to Stack Overflow Question](https://stackoverflow.com/questions/77021074/how-to-add-points-to-a-logged-in-user-after-reading-a-qr-code-url-with-mycred)
+***
+# Code Fencing
+> CSS WordPress: How to put a colored space before a text (H2)
 
-``` function set_mycred_points($point, $pass) {
-    // Define the correct passcode
-    $correct_pass = "thecustompassword";
+Here is the relevant question on Stack Overflow: [Link to Stack Overflow Question](https://stackoverflow.com/questions/77049493/css-wordpress-how-to-put-a-colored-space-before-a-text-h2)
 
-    // Check if the passcode is correct
-    if ($pass !== $correct_pass) {
-        wp_redirect('/qr-error/'); 
-        exit; // Make sure to exit to prevent further execution
-    }
+```
+<?php query_posts('cat=-3'); ?>
 
-    $user_id = get_current_user_id();
-    $today = date('Y-m-d');
-
-    // Get the date when the user last performed the action
-    $last_performed_date = get_user_meta($user_id, 'mycred_last_performed_date', true);
-
-    if ($last_performed_date != $today) {
-        // User has not performed the action today, so add points
-        mycred_add('Store Visit Points', $user_id, $point, 'Earned Store Visit Points');
-
-        // Update the date when the user last performed the action
-        update_user_meta($user_id, 'mycred_last_performed_date', $today);
-    } else {
-        // User has already performed the action today, redirect to a specific page
-        wp_redirect('/point-error/'); 
-        exit; // Make sure to exit to prevent further execution
-    }
-}
-
-if (isset($_GET['action']) && $_GET['action'] == 'setpts' && isset($_GET['point']) && isset($_GET['pass'])) {
-    $point = intval($_GET['point']); // Sanitize the point value as an integer
-    $pass = $_GET['pass']; // Get the passcode from the GET parameters
-    set_mycred_points($point, $pass);
-}
+<?php if (have_posts()) : ?>
+<?php while (have_posts()) : the_post(); ?>
+  <h3></h3>	
+  <p><?php the_time('F jS, Y') ?></p>
+  <?php the_content(); ?>
+<?php endwhile; ?>
 ```
 
 
-Here is the quick link for the snippets source:  [link](https://css-tricks.com/new-snippet-buttons/)
+Here is the quick link for the snippets source:  [link](https://css-tricks.com/snippets/wordpress/remove-specific-categories-from-the-loop/)
